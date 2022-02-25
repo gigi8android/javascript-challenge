@@ -73,12 +73,19 @@ select {
   outline: none;
 }
 
+#table-area {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: rgb(102, 100, 100);
+}
+
 #table-area th {
   text-align: left; 
 }
 
 #table-area td {
   text-align: left; 
+  /* border: 1px solid; */
 }
 
 #table-area th:first-child,
@@ -98,7 +105,7 @@ select {
 /* The styles for the parallax */
 .hero {
   position: relative;
-  height: 300px;
+  height: 200px;
   padding: 20px;
   margin: 0;
   background: black;
@@ -109,7 +116,7 @@ select {
 }
 
 .hero h1 {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
 }
@@ -233,50 +240,32 @@ select {
 /* ******************************************************************************** */
 
 @media (max-width: 800px) {
-  #header-fixed {
-    height: 80px;
+  #divScroll {
+    height: 200px;
   }
 }
 
-/* .tableFixHead {
-  overflow: auto;
-  height: 400px;
+.divScroll {
+  Overflow-y: scroll;
   display: block;
-}
-.tableFixHead thead th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-table {
+  height: 400px;
   width: 100%;
 }
-th,
-td {
-  padding: 8px 16px;
-}
-th {
-  background: black;
-}
-.tableFixHead,
-.tableFixHead td {
-  box-shadow: inset 1px -1px #000;
-}
-.tableFixHead th {
-  box-shadow: inset 1px 1px #000, 0 1px #000;
-} */
-
-
-/* ******************************************************************************** */
-
 
 .table-head {
-    border: 1px solid black;
-    background-color: black;
+  border: 1px solid black;
+  background-color: black;
+  display: fixed;
+  position: sticky;
+  top: 0;
 }
 
-
 /* ******************************************************************************** */
+
+
+
+
+
 
 
 
