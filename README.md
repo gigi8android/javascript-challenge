@@ -8,7 +8,7 @@ The structure of this repository is as followed: <br/>
 
 2- Under the folder "static" are:
 
-  - Sub folder js is for JavaScript files: _app.js_ and input data file _data.js_
+  - Sub folder js is for files .js (e.g. javascripts): _app.js_ (for both level 1 & level 2 codes) and input data file _data.js_
   - Sub folder css is for styling files: _style.css_ and _stars.css_
   - Sub folder image is for images: _nasa.jpg_ and _ufo.svg_
 
