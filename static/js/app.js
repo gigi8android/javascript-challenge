@@ -158,8 +158,6 @@ function addNodes() {
             searchBox = aVal
             })
 
-        console.log("searchBox return: ", searchBox[5])
-        
         // Generate hidden input boxes
         for (var j =0; j < 5; j++)
             {
