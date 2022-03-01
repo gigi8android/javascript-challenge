@@ -14,5 +14,5 @@ The structure of this repository is as followed: <br/>
 
 
 **Note:** 
-- Multiple searches function can be performed by pressing 'Ctrl' button and click on the selection dropdown list.
+- Dynamic multiple searches function can be performed by pressing 'Ctrl' button and click on the selection dropdown list.
 - URL of github page: https://gigi8android.github.io/javascript-challenge/
