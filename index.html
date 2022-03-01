@@ -36,22 +36,28 @@
         <div class="col-md-2">
           <aside class="filters">
             <div class="panel panel-default">
-              <div class="panel-heading">Select a Search Filter</div>
+              <div class="panel-heading">Select Search Column/s:</div>
               <div class="panel-body">
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
-                      <select class="filter list-group-item" id="selFilter" style="color:black; background-color: white;" title=" Click to Select a Search Engine">
+                      <select class="filter list-group-item select-group" id="selFilter" 
+                            style="color:black; background-color: white; font-size: medium;" 
+                            title="Select one or multiple search columns";
+                            size="2";
+                            multiple="multiple-select">
                         <option id="sdate" value="sdate">Search Date</option>
                         <option id="scity" value="scity">Search City</option>
                         <option id="sstate" value="sstate">Search State</option>
                         <option id="scountry" value="scountry">Search Country</option>
                         <option id="sshape" value="sshape">Search Shape</option>
                       </select>
-                      <input class="form-control" id="userInput" type="text" autocomplete="off">
                     </ul>
-                    <button id="filter-btn" type="button" class="filter list-group-item btn btn-default">Filter Data</button>
-                    <button id="clear-btn" type="button" class="filter list-group-item btn btn-default">Clear Filter</button>
+                    <ul class="list-group" id="filters" style="padding-left:15px;" title="Select column to search first"> Enter Search Data:</ul>
+                    <div class="customBox" id= "inputBoxDiv">
+                    </div>
+                    <button id="filter-btn" type="button" class="filter list-group-item btn btn-default" title="Click to Search">Filter Data</button>
+                    <button id="clear-btn" type="button" class="filter list-group-item btn btn-default" title="Click to Reset">Reset Filter</button>
                   </div>
                 </form>
               </div>
@@ -89,6 +95,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
+
 </body>
 
 </html>
