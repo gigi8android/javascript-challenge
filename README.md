@@ -12,4 +12,7 @@ The structure of this repository is as followed: <br/>
   - Sub folder css is for styling files: _style.css_ and _stars.css_
   - Sub folder image is for images: _nasa.jpg_ and _ufo.svg_
 
-URL of github page: https://gigi8android.github.io/javascript-challenge/
+
+**Note:** 
+- Multiple searches function can be performed by pressing 'Ctrl' button and click on the selection dropdown list.
+- URL of github page: https://gigi8android.github.io/javascript-challenge/
